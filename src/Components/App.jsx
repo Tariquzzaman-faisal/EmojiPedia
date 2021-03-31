@@ -2,11 +2,6 @@ import React from "react";
 import Card from "./Card";
 import info from "./emojiInfo"
 
-function CreateCard(info){
-    return (
-        <Card title = {info.title} description = {info.description} emoji = {info.emoji} />
-    )
-}
 
 function App() {
     return (
@@ -17,7 +12,7 @@ function App() {
                 </div>
             </div>
                 {/* <div className="col-4"> */}
-                {info.map(CreateCard)}
+                {info.map(info => <Card title = {info.title} description = {info.description} emoji = {info.emoji} />)}
                 {/* </div> */}
             
         </div>
