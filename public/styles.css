@@ -1,0 +1,18 @@
+body {
+    background-color: aquamarine;
+}
+.cardbox{
+    background-color:black;
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 4rem auto;
+    max-width: 90%;
+}
+
+.jumbotron{
+    text-align: center;
+    background-color: black;
+    color: azure;
+}
